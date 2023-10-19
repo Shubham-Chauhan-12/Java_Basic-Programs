@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class UserInput {
+public class UserInputOutput {
 
 
     public static void main(String[] args) {
@@ -27,6 +27,20 @@ public class UserInput {
         // For Boolean Value
         boolean result = sc.nextBoolean();
 
+
+
+        // Output
+
+        System.out.print("Output comes in single line without line break ");
+
+        System.out.println("Output comes in diff line by using (println)");
+
+
+    // single line comment
+
+     /* multi
+        line  ( ctrl + shift + / )
+        comment */
 
     }
 }
